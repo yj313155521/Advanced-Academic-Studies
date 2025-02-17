@@ -1,0 +1,333 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={An Analysis of Data Ethics in the Internet Environment},
+  pdfauthor={Jin Yan},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{An Analysis of Data Ethics in the Internet Environment}
+\author{Jin Yan}
+\date{2022-09-21}
+
+\begin{document}
+\maketitle
+
+\hypertarget{abstract}{%
+\section{Abstract}\label{abstract}}
+
+This paper first discusses the value of the large amount of data
+available in the Internet environment, mainly related to medical health,
+advertising and credit building. It then demonstrates the problems of
+data misuse in the current Internet context. The importance of
+establishing data ethics is illustrated by comparison. At the end of the
+paper, the current state of personal data protection in Chinese society
+is presented, along with a specific analysis of the current situation.
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+The development of machine learning and artificial intelligence has made
+the footprints people leave on the Internet particularly valuable.
+Currently, the records of people's activities on the Internet, whether
+in the medical, advertising or financial sectors, can be used by the
+holders of these data to create enormous wealth. At the same time,
+ordinary Internet users are increasingly aware of the importance of
+their personal data. In the process of using these data, there are also
+things that can harm people's interests. There are heated debates on how
+to protect their data. The main purpose of this paper is to raise
+awareness of data ethics by showing the current problems of data misuse
+in the context of the Internet and the responses of various countries.
+
+\hypertarget{literature-review}{%
+\section{Literature review}\label{literature-review}}
+
+Personal data has contributed to the development of the following
+industries.
+
+\hypertarget{medical-industry}{%
+\subsection{Medical Industry}\label{medical-industry}}
+
+Machine learning and large-scale data sets have allowed the full
+potential of personal information to be exploited.{[}1{]}Specifically,
+there are now many fitness apps and diet intake apps that allow users to
+extract health information from recorded data, and the value of this
+data rises as the analytical and predictive capabilities of these apps
+improve. In addition, large-scale medical information can be used to
+treat diseases that could not be dealt with before. {[}1{]} Even some
+recent analyses suggest that the value of data needs to be reevaluated
+because the current ability to analyze and compile data has changed
+dramatically from what it was before. {[}2{]} In fact, the market for
+medical data in the United States is in the billions. And there are
+already startups in the U.S. that are profiting from providing
+individuals with secure access to selling their personal information.
+
+\hypertarget{advertising-industry}{%
+\subsection{Advertising Industry}\label{advertising-industry}}
+
+In the ``Big Data Era'', data has become an effective input to the wide
+range of services offered by the Internet. With this data, Internet
+platform companies can provide customized advertising recommendations.
+The data shows that the conversion rate of advertisements has become
+twice as high as before compared to ordinary media.{[}3{]}
+
+\hypertarget{financial-sector}{%
+\subsection{Financial sector}\label{financial-sector}}
+
+The most far-reaching change that technological advances have brought
+about for China is the creation of a social credit system. This system
+will evaluate and grade the creditworthiness of 1.4 billion people, by
+analyzing their social behavior and collecting economic and government
+data.{[}4{]} For example, Tencent Credit, a subsidiary of Tencent
+Technology, has been collecting large amounts of data through QQ and
+other security applications {[}5{]} and in the process has found that
+data generated by social media can effectively help in credit risk
+analysis.{[}6{]}
+
+\hypertarget{problems-in-data-use-and-some-solutions.}{%
+\subsection{Problems in data use and some
+solutions.}\label{problems-in-data-use-and-some-solutions.}}
+
+Although the great value of medical data is valued by companies and
+research institutions, there are a large number of people who are not
+well aware of the value of their data.{[}7{]} In response to this
+situation those medical researchers who collect and use medical data,
+government agencies and companies should make vulnerable groups aware of
+the potential value of their own data.{[}1{]}Governments have also taken
+some measures to protect personal data. For example, in Europe the
+latest General Data Protection Regulation has recognized personal data
+as the property of individuals.
+
+\hypertarget{personal-data-specifics-and-analysis-in-china}{%
+\section{Personal data specifics and analysis in
+China}\label{personal-data-specifics-and-analysis-in-china}}
+
+\hypertarget{specifics}{%
+\subsection{specifics}\label{specifics}}
+
+The development of big data and artificial intelligence technologies in
+China has led to a significant rise in the digital economy. It was able
+to reach 26 trillion RMB in 2017. The contribution to China's GDP
+reached 32\%. At the same time, the growth rate of the digital economy
+was 18\%, while the overall economic growth rate was 6.9\%.{[}8{]} It is
+also important to note that the use of data in China has created some
+problems. Approximately 70\% of the population's personal information is
+compromised on the Internet. This information includes names, addresses,
+phone numbets preparing for exams also receive phone calls and messages
+from people selling them preparation materials that they may use for the
+exam.{[}9{]} There are technology companies that help government public
+safety agencies develop surveillance systems through the use of big
+data, voice recognition, and image recognition.{[}4{]} Data breaches can
+even lead to serious cases, and the Xu Yu Yu case is very typical. A
+high school graduate girl lost her college tuition because she was
+cheated with 8000 RMB, and then became depressed and had an acute heart
+attack. The reason was that the fraudster got her information by
+attacking the school database and thus won the girl's trust by using the
+real information in the database.{[}10{]}
+
+In fact, China has enacted numerous laws and regulations to address
+these issues: in November 2016, the ``National People's Congress''
+enacted the Internet Security Law.{[}11{]} China's criminal law has also
+had two amendments in the last decade to address personal information
+security.{[}11{]}
+
+\hypertarget{analysis}{%
+\subsection{Analysis}\label{analysis}}
+
+Although there is already a considerable amount of legislation in place
+to safeguard personal data, the current enforcement of the law is
+somewhat unsatisfactory. Despite the high number of cases related to
+personal information from 2010-2015, the number of actual convictions is
+relatively low.In addition, although the amendment to the criminal code
+increased the length of imprisonment to three to seven years, the most
+serious convictions between 2015 and 2016 were for two years, with two
+years of probation.In fact, the main reason for these problems is that
+the public is not well aware of the potential risks associated with
+personal data breaches. The public is also not very sensitive to the
+security of personal data. In such a situation, personal data can be
+easily obtained. This also affects the enforcement of legislation and
+laws. In such a situation, it is particularly important to build a
+consensus on data ethics.
+
+\hypertarget{conclusion}{%
+\section{Conclusion}\label{conclusion}}
+
+A questionnaire was used to investigate the perception of data
+protection among the 20-30 year old Chinese adult population. 100\% of
+the respondents experienced problems due to information leakage. What is
+worth exploring is that when asked how much money they would be willing
+to spend to protect their data, 80\% chose not to spend in this area.
+This result shows that the problem of personal data leakage is indeed
+common, but for most people the impact of online information leakage on
+their lives is relatively limited. Limited by the sample size, the
+samples involved in this survey study are all bachelor's degree holders
+with certain risk-averse ability. When asked whether they care about
+Internet companies recording their own behavioral data on the Internet
+for targeted advertising, 100\% of people feel uncomfortable, and 40\%
+of them feel very much so. Combined with the previous information, it
+can also be concluded that this group has a relatively strong sense of
+personal data protection. However, the awareness of the risks caused by
+data leakage is not quite sufficient.
+
+\hypertarget{references}{%
+\section*{References}\label{references}}
+\addcontentsline{toc}{section}{References}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{0}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-dulhanty_present_2021}{}}%
+\CSLLeftMargin{{[}1{]} }%
+\CSLRightInline{Dulhanty A 2021
+\href{https://doi.org/10.2471/BLT.19.237248}{Present value of future
+health data: Ethics of data collection and use} \emph{Bull World Health
+Organ} \textbf{99} 162--3}
+
+\leavevmode\vadjust pre{\hypertarget{ref-foster_embedded_2018}{}}%
+\CSLLeftMargin{{[}2{]} }%
+\CSLRightInline{Foster J and Clough P 2018
+\href{https://doi.org/10.1002/asi.23987}{Embedded, added, cocreated:
+{Revisiting} the value of information in an age of data} \emph{Journal
+of the Association for Information Science and Technology} \textbf{69}
+744--8}
+
+\leavevmode\vadjust pre{\hypertarget{ref-beales_value_2022}{}}%
+\CSLLeftMargin{{[}3{]} }%
+\CSLRightInline{Beales H 2022 The {Value} of {Behavioral} {Targeting}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-__2017}{}}%
+\CSLLeftMargin{{[}4{]} }%
+\CSLRightInline{孟建国K B 2017
+\href{https://cn.nytimes.com/business/20171205/china-artificial-intelligence/}{人工智能在中国：技术背后的反乌托邦可能性}
+\emph{纽约时报中文网}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-noauthor__nodate}{}}%
+\CSLLeftMargin{{[}5{]} }%
+\CSLRightInline{Anon
+\href{http://finance.sina.com.cn/roll/20150825/080823054761.shtml}{芝麻信用押注消费、腾讯征信紧贴机构
+互联网征信各展所长\_滚动新闻\_新浪财经\_新浪网}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-noauthor__nodate-1}{}}%
+\CSLLeftMargin{{[}6{]} }%
+\CSLRightInline{Anon
+\href{https://finance.caixin.com/2015-07-21/100830962.html}{腾讯征信：社交数据也能评估信用
+\_金融频道\_财新网}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-cheah_challenges_2018}{}}%
+\CSLLeftMargin{{[}7{]} }%
+\CSLRightInline{Cheah P Y, Jatupornpimol N, Hanboonkunupakarn B,
+Khirikoekkong N, Jittamala P, Pukrittayakamee S, Day N P J, Parker M and
+Bull S 2018 \href{https://doi.org/10.1186/s12910-018-0326-x}{Challenges
+arising when seeking broad consent for health research data sharing: A
+qualitative study of perspectives in {Thailand}} \emph{BMC Medical
+Ethics} \textbf{19} 86}
+
+\leavevmode\vadjust pre{\hypertarget{ref-weber_comparative_2020}{}}%
+\CSLLeftMargin{{[}8{]} }%
+\CSLRightInline{Weber P A, Zhang N and Wu H 2020
+\href{https://doi.org/10.1007/s10660-020-09422-3}{A comparative analysis
+of personal data protection regulations between the {EU} and {China}}
+\emph{Electron Commer Res} \textbf{20} 565--87}
+
+\leavevmode\vadjust pre{\hypertarget{ref-noauthor_130_nodate}{}}%
+\CSLLeftMargin{{[}9{]} }%
+\CSLRightInline{Anon
+\href{http://news.sina.com.cn/c/2014-12-10/032331266499.shtml}{130万考研者信息被叫卖
+专家吁出台信息保护法{\textbar}个人信息\_新浪新闻}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-feng_future_2019}{}}%
+\CSLLeftMargin{{[}10{]} }%
+\CSLRightInline{Feng Y 2019
+\href{https://doi.org/10.1080/10192557.2019.1646015}{The future of
+{China}'s personal data protection law: Challenges and prospects}
+\emph{Asia Pacific Law Review} \textbf{27} 62--82}
+
+\leavevmode\vadjust pre{\hypertarget{ref-han_market_2017}{}}%
+\CSLLeftMargin{{[}11{]} }%
+\CSLRightInline{Han D 2017
+\href{https://doi.org/10.17645/mac.v5i2.890}{The market value of who we
+are: The flow of personal data and its regulation in {China}}
+\emph{Media and Communication} \textbf{5} 21--30}
+
+\end{CSLReferences}
+
+\end{document}
